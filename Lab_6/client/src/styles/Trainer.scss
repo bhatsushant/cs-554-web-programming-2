@@ -1,0 +1,45 @@
+.add-trainer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    input {
+        -webkit-appearance: none;
+        border: 2px solid #dadada;
+        border-radius: 7px;
+        outline: none;
+        line-height: 30px;
+        margin: 5px;
+        width: 25%;
+    }
+
+    input:focus {
+        outline: none;
+        border-color: #fe2c54;
+        box-shadow: 0 0 10px #9ecaed;
+    }
+}
+
+.trainer-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    label {
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+    .delete-trainer-button {
+        color: #d4423c;
+        border-color: #d4423c;
+    }
+
+    .button-container {
+        width: 30%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+}

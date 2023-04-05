@@ -1,0 +1,24 @@
+{
+  "name": "cs_554_lab_5",
+  "version": "1.0.0",
+  "description": "CS 554 Lab 5",
+  "main": "server/index.js",
+  "scripts": {
+    "devStart": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "author": "Sushant Bhat",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-datasource": "^3.3.1",
+    "apollo-datasource-rest": "^3.5.2",
+    "apollo-server": "^3.6.7",
+    "axios": "^0.26.1",
+    "graphql": "^16.3.0",
+    "redis": "^4.0.6",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

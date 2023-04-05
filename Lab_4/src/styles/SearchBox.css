@@ -1,0 +1,23 @@
+.search-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.search-box input {
+  -webkit-appearance: none;
+  border: 2px solid #dadada;
+  border-radius: 7px;
+  outline: none;
+  line-height: 30px;
+  margin: 5px;
+  width: 75%;
+  text-transform: lowercase;
+}
+
+.search-box input:focus {
+  outline: none;
+  border-color: #fe2c54;
+  box-shadow: 0 0 10px #9ecaed;
+}

@@ -1,0 +1,22 @@
+{
+  "name": "cs-554-lab-1",
+  "version": "1.0.0",
+  "description": "CS 554 Lab 1",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "devStart": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "author": "Sushant Bhat 10474365",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "express": "^4.17.2",
+    "express-session": "^1.17.2",
+    "mongodb": "^4.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

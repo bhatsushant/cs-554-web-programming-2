@@ -1,0 +1,39 @@
+.single-card-container {
+    cursor: pointer;
+    -moz-osx-font-smoothing: grayscale;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    transition: transform 0.25s ease-out;
+    // box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+    Button {
+        background-color: #d4423c;
+        border-radius: 0;
+
+        &:hover {
+            background-color: #d4423c;
+            opacity: 0.8;
+        }
+    }
+
+    h1 {
+        font-weight: normal;
+        font-size: large;
+    }
+
+    &:hover {
+        transform: scale(1.05);
+        // box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+        
+        img {
+            opacity: 0.8;
+        }
+    }
+
+}
+
+.card-title {
+    text-align: center;
+    border-top: solid 1px;
+    text-transform: uppercase;
+}

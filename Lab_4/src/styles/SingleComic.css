@@ -1,0 +1,8 @@
+.list {
+  padding: 30px;
+  list-style: none;
+}
+
+.list a {
+  text-decoration: none;
+}
